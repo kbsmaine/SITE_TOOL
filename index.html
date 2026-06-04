@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pelletier AI Solutions | AI Systems for Local Businesses</title>
-  <meta name="description" content="Pelletier AI Solutions helps local businesses save time, capture more leads, automate follow-ups, and use AI without complicated software." />
+  <title>Verve AI Solutions | AI Systems for Local Businesses</title>
+  <meta name="description" content="Verve AI Solutions helps local businesses save time, capture more leads, automate follow-ups, and use AI without complicated software." />
   <meta name="theme-color" content="#07111f" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +14,9 @@
 <body>
   <header class="site-header" id="top">
     <nav class="nav wrap" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Pelletier AI Solutions home">
-        <span class="brand-mark">PA</span>
-        <span class="brand-text">Pelletier AI Solutions</span>
+      <a class="brand" href="#top" aria-label="Verve AI Solutions home">
+        <span class="brand-mark">VA</span>
+        <span class="brand-text">Verve AI Solutions</span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation">
         <span></span><span></span><span></span>
@@ -39,7 +39,7 @@
         <div class="hero-copy">
           <p class="eyebrow">AI systems for local service businesses</p>
           <h1>Turn missed leads, slow replies, and repetitive work into automated growth.</h1>
-          <p class="hero-subtitle">Pelletier AI Solutions builds practical AI tools for small businesses: customer chat, missed-call follow-up, quote intake, review requests, appointment support, staff knowledge bases, and custom automations that save hours every week.</p>
+          <p class="hero-subtitle">Verve AI Solutions builds practical AI tools for small businesses: customer chat, missed-call follow-up, quote intake, review requests, appointment support, staff knowledge bases, and custom automations that save hours every week.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#contact">Request a Free AI Audit</a>
             <a class="btn btn-secondary" href="#services">See What AI Can Do</a>
@@ -347,30 +347,29 @@
           <h2>Want to know where AI would help your business first?</h2>
           <p>Send a message with your business type, website if you have one, and the biggest time-wasting task you deal with. You will get a practical recommendation for what to automate first.</p>
           <div class="contact-buttons">
-            <a class="btn btn-primary" href="mailto:krpelletier33@gmail.com?subject=Free%20AI%20Audit%20Request&body=Hi%20Kevin%2C%0A%0AI%27m%20interested%20in%20a%20free%20AI%20audit%20for%20my%20business.%0A%0ABusiness%20name%3A%0ABusiness%20type%3A%0AWebsite%3A%0ABiggest%20time-wasting%20task%3A%0A%0AThanks%2C">Email Kevin</a>
-            <a class="btn btn-secondary light" href="tel:+12074099492">Call / Text</a>
+            <a class="btn btn-primary" href="mailto:krpelletier33@gmail.com?subject=Free%20AI%20Audit%20Request&body=Hi%20Verve%20AI%20Solutions%2C%0A%0AI%27m%20interested%20in%20a%20free%20AI%20audit%20for%20my%20business.%0A%0ABusiness%20name%3A%0ABusiness%20type%3A%0AWebsite%3A%0ABiggest%20time-wasting%20task%3A%0A%0AThanks%2C">Email Verve AI Solutions</a>
           </div>
         </div>
-        <form class="contact-form" action="mailto:krpelletier33@gmail.com" method="post" enctype="text/plain">
+        <div class="contact-form" id="auditRequestBox" aria-label="Free AI audit request form">
           <label>
             Your name
-            <input type="text" name="Name" autocomplete="name" required />
+            <input id="auditName" type="text" name="Name" autocomplete="name" />
           </label>
           <label>
             Business name
-            <input type="text" name="Business" autocomplete="organization" required />
+            <input id="auditBusiness" type="text" name="Business" autocomplete="organization" />
           </label>
           <label>
             Email or phone
-            <input type="text" name="Contact" autocomplete="email" required />
+            <input id="auditContact" type="text" name="Contact" autocomplete="email" />
           </label>
           <label>
             What do you want AI to help with?
-            <textarea name="Message" rows="5" required></textarea>
+            <textarea id="auditMessage" name="Message" rows="5"></textarea>
           </label>
-          <button class="btn btn-primary full" type="submit">Send Audit Request</button>
-          <p class="form-note">This opens your email app so you can review the message before sending.</p>
-        </form>
+          <button class="btn btn-primary full" type="button" id="auditSendButton">Send Audit Request</button>
+          <p class="form-note" id="auditFormNote">This opens your email app so you can review the message before sending.</p>
+        </div>
       </div>
     </section>
   </main>
@@ -379,8 +378,8 @@
     <div class="wrap footer-grid">
       <div>
         <a class="brand footer-brand" href="#top">
-          <span class="brand-mark">PA</span>
-          <span class="brand-text">Pelletier AI Solutions</span>
+          <span class="brand-mark">VA</span>
+          <span class="brand-text">Verve AI Solutions</span>
         </a>
         <p>Practical AI systems for local businesses that want faster responses, better follow-up, and less repetitive work.</p>
       </div>
@@ -393,12 +392,11 @@
       </div>
       <div>
         <h4>Contact</h4>
-        <a href="mailto:krpelletier33@gmail.com">krpelletier33@gmail.com</a>
-        <a href="tel:+12074099492">Call / Text: (207) 409-9492</a>
+        <a href="#contact">Request a Free AI Audit</a>
       </div>
     </div>
     <div class="wrap footer-bottom">
-      <span>© <span id="year"></span> Pelletier AI Solutions. All rights reserved.</span>
+      <span>© <span id="year"></span> Verve AI Solutions. All rights reserved.</span>
       <a href="#top">Back to top ↑</a>
     </div>
   </footer>

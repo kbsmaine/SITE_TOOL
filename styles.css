@@ -270,3 +270,7 @@ input:focus, textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 4px r
   .strip-inner { justify-content: center; }
   .footer-bottom { flex-direction: column; align-items: flex-start; }
 }
+
+.form-note.error {
+  color: #ffd1d1;
+}
