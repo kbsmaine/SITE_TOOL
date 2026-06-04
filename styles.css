@@ -274,3 +274,12 @@ input:focus, textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 4px r
 .form-note.error {
   color: #ffd1d1;
 }
+
+.hidden-field {
+  position: absolute !important;
+  left: -9999px !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  pointer-events: none !important;
+}
