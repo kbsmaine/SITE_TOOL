@@ -242,6 +242,12 @@ label { display: grid; gap: 8px; font-weight: 850; }
 input, textarea { width: 100%; border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px; font: inherit; color: var(--ink); background: var(--soft); outline: none; }
 input:focus, textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(47,107,255,.12); }
 .form-note { font-size: .88rem !important; color: var(--muted) !important; margin: 0; text-align: center; }
+.form-note.success {
+  color: #b8ffd8;
+  border-color: rgba(87, 255, 166, 0.35);
+  background: rgba(87, 255, 166, 0.08);
+}
+
 
 .footer { background: #050b14; color: #fff; padding: 54px 0 24px; }
 .footer-grid { display: grid; grid-template-columns: 1.3fr .7fr .8fr; gap: 34px; }
