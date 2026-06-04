@@ -51,15 +51,16 @@ img, svg { max-width: 100%; display: block; }
   letter-spacing: -.03em;
   color: #fff;
 }
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  display: grid;
-  place-items: center;
-  border-radius: 14px;
-  background: linear-gradient(135deg, var(--blue), var(--cyan));
-  color: #fff;
-  box-shadow: 0 12px 30px rgba(53, 211, 255, .22);
+.brand-logo {
+  width: 82px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 24px rgba(47,107,255,.18));
+}
+.footer-logo {
+  width: 92px;
+  filter: none;
 }
 .brand-text { font-size: 1rem; }
 .nav-menu {
@@ -289,3 +290,5 @@ input:focus, textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 4px r
   width: 0 !important;
   pointer-events: none !important;
 }
+
+.footer-brand { color: #fff; }
